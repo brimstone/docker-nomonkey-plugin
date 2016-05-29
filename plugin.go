@@ -40,7 +40,6 @@ type request struct {
 		} `json:"Devices"`
 		Privileged bool `json:"Privileged"`
 	} `json:"HostConfig"`
-	VolumesFrom []string
 }
 
 func (p *nomonkey) AuthZReq(req authorization.Request) authorization.Response {

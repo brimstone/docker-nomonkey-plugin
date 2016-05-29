@@ -1,2 +1,3 @@
 go-docker-nomonkey
 docker-nomonkey-plugin
+*.swp
